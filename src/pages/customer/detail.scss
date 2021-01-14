@@ -1,0 +1,122 @@
+.page {
+  padding-top: 40rpx;
+  background: url("../../static/customer/detail-bg.png") #f7f5f6 no-repeat;
+  background-size: contain;
+
+  .info {
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    padding: 20rpx 30rpx;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+
+    .top {
+      padding-bottom: 20rpx;
+      margin-bottom: 20rpx;
+      border-bottom: 1rpx solid #eeeeee;
+
+      .name {
+        font-size: 34rpx;
+        font-weight: 500;
+        color: #333;
+      }
+
+      .wechat {
+        font-size: 24rpx;
+        font-weight: 500;
+        color: #999;
+      }
+    }
+
+    .avatar {
+      width: 120rpx;
+      height: 120rpx;
+      border-radius: 50%;
+      margin-right: 30rpx;
+      border: 4rpx solid #eee;
+    }
+
+    .call-img {
+      width: 48rpx;
+      height: 48rpx;
+    }
+
+    .arrow-right {
+      width: 32rpx;
+      height: 32rpx;
+      margin: 15rpx;
+    }
+
+    .info-row {
+      height: 40rpx;
+      image {
+        width: 32rpx;
+        height: 32rpx;
+        margin-right: 15rpx;
+      }
+
+      .txt {
+        font-size: 22rpx;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        line-height: 30rpx;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .action-block {
+    margin-top: 20rpx;
+    padding-top: 20rpx;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+
+    .title {
+      padding: 0 20rpx;
+      font-size: 32rpx;
+      font-weight: bold;
+      color: #000;
+
+      .line {
+        width: 8rpx;
+        height: 30rpx;
+        background: rgba(252, 88, 27, 1);
+        border-radius: 4rpx;
+        margin-right: 20rpx;
+      }
+    }
+
+    .action-list {
+      padding: 20rpx 30rpx 50rpx;
+
+      .action-item {
+        padding: 30rpx;
+        position: relative;
+        border-left: 2rpx solid #fc581b;
+
+        .red-dot {
+          position: absolute;
+          left: -8rpx;
+          top: 30rpx;
+          width: 14rpx;
+          height: 14rpx;
+          background: rgba(252, 88, 27, 1);
+          border-radius: 50%;
+        }
+
+        .time {
+          font-size: 24rpx;
+          font-weight: 500;
+          color: #999;
+          // padding-left: 15rpx;
+        }
+
+        .action-txt {
+          font-size: 28rpx;
+          font-weight: 500;
+          color: #666;
+        }
+      }
+    }
+  }
+}

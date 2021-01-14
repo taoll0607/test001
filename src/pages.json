@@ -1,0 +1,163 @@
+{
+	"pages": [
+		
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/follow/viewFollow",
+			"style": {
+				"navigationBarTitleText": "查看跟进"
+			}
+		},
+		{
+			"path": "pages/follow/addFollow",
+			"style": {
+				"navigationBarTitleText": "添加跟进"
+			}
+		},
+		{
+			"path": "pages/studio/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/listTPL/detail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/listTPL/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/news",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/sendCard",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/authorization",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/bindPhone",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/customer/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true //开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/team/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true //开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/data/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/customer/edit",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/customer/editField",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/customer/address",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/customer/detail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/authorizePhone",
+			"style": {
+				"navigationBarTitleText": "绑定手机号"
+			}
+		},
+		{
+			"path": "pages/login/authorization",
+			"style": {
+				"navigationBarTitleText": "授权用户信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "银行·云平台",
+		"navigationBarBackgroundColor": "#efefef",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6"
+	},
+	"tabBar": {
+		"color": "#302D3C",
+		"selectedColor": "#FC581B",
+		"borderStyle": "white",
+		"iconWidth": "44px",
+		"fontSize": "22px",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/manager/tab_home.png",
+				"selectedIconPath": "static/manager/tab_home_hover.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/customer/index",
+				"iconPath": "static/manager/icon-kehu.png",
+				"selectedIconPath": "static/manager/icon-kehu-hover.png",
+				"text": "客户"
+			},
+			{
+				"pagePath": "pages/team/index",
+				"iconPath": "static/manager/icon-tuandui.png",
+				"selectedIconPath": "static/manager/icon-tuandui-hover.png",
+				"text": "团队"
+			},
+			{
+				"pagePath": "pages/data/index",
+				"iconPath": "static/manager/icon-shuju.png",
+				"selectedIconPath": "static/manager/icon-shuju-hover.png",
+				"text": "数据"
+			}
+		]
+	}
+}

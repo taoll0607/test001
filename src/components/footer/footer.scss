@@ -1,0 +1,47 @@
+.footer {
+  padding: 30rpx;
+}
+
+.bg {
+  background-color: #f7f5f6;
+}
+
+.ctt1 {
+  text-align: center;
+  padding-top: 10rpx;
+  justify-content: space-between;
+
+  .ctt1-item {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+    image {
+      margin-bottom: 20rpx;
+      width: 216rpx;
+      height: 216rpx;
+    }
+
+    .txt {
+      font-size: 22rpx;
+      color: #666666;
+      line-height: 40rpx;
+      font-weight: 500;
+    }
+  }
+}
+
+.tips {
+  border-top: 1rpx solid #eaeaea;
+  padding-top: 40rpx;
+  margin-top: 40rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  color: rgba(102, 102, 102, 1);
+  line-height: 40rpx;
+
+  image {
+    width: 30rpx;
+    height: 30rpx;
+  }
+}

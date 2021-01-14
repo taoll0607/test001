@@ -1,0 +1,58 @@
+.page {
+  background-color: #F5F5F5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  .tab {
+    height:201rpx;
+    background:linear-gradient(#FEB927,#F7644B);
+    position: fixed;
+    width: 100%;
+    margin-bottom: 100px;
+    z-index: 100;
+    .select {
+      font-size: 34rpx;
+      text-align: center;
+      color: #fff;
+      padding: 53rpx 0 34rpx 0;
+      font-weight: bold;
+      .selectTree {
+        display:inline-block;
+        image {
+          width: 20rpx;
+          height: 20rpx;
+          margin-left: 33rpx;
+        }
+      }
+    }
+  }
+  .con {
+    position: relative;
+    top: 100px;
+    padding-bottom: 100px;
+  }
+  .pb100 {
+    padding-bottom: 100rpx;
+    background: #f5f5f5;
+  }
+  .search-result {
+    margin-top: 260rpx;
+    text-align: center;
+  }
+  .search-result image {
+    width: 150rpx;
+    height: 150rpx;
+  }
+  .search-row1 {
+    font-size: 32rpx;
+    font-weight: 500;
+    color: #666666;
+  }
+  .search-row2 {
+    font-size: 24rpx;
+    font-weight: 500;
+    color: rgba(153, 153, 153, 1);
+  }
+}

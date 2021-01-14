@@ -1,0 +1,238 @@
+.page2 {
+  padding: 38rpx 30rpx;
+  background: url("../../static/customer/page-bg2.png") no-repeat;
+  background-size: contain;
+
+  .bank {
+    align-items: center;
+
+    .bank-logo {
+      flex: 1;
+      height: 60rpx;
+      background: url("../../static/customer/logo.png") no-repeat;
+      background-size: contain;
+    }
+
+    .bank-logo-text {
+      width: 160rpx;
+      height: 46rpx;
+      background: url("../../static/customer/logo-text.png") no-repeat;
+      background-size: contain;
+    }
+  }
+
+  .card {
+    margin-top: 90rpx;
+    height: 339rpx;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 1rpx 31rpx 1rpx rgba(104, 104, 107, 0.18);
+    border-radius: 30rpx;
+    position: relative;
+
+    .avatar {
+      position: absolute;
+      top: -60rpx;
+      left: 280rpx;
+      width: 136rpx;
+      height: 136rpx;
+      border-radius: 68rpx;
+    }
+
+    .number {
+      position: absolute;
+      font-size: 24rpx;
+      font-weight: bold;
+      color: #999;
+      top: 35rpx;
+      left: 35rpx;
+    }
+
+    .card-info {
+      padding-top: 85rpx;
+
+      .name {
+        font-size: 33rpx;
+        color: #333;
+        font-weight: bold;
+      }
+
+      .dept {
+        font-weight: 500;
+        color: #666;
+        font-size: 24rpx;
+      }
+
+      .btn {
+        margin-top: 10rpx;
+        width: 190rpx;
+        height: 48rpx;
+        line-height: 48rpx;
+        background: rgba(251, 247, 213, 1);
+        border-radius: 24rpx;
+        color: #eba730;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24rpx;
+      }
+    }
+
+    .zan {
+      position: absolute;
+      top: 30rpx;
+      right: 30rpx;
+      width: 32rpx;
+      height: 32rpx;
+      background: url("../../static/customer/zan2.png") no-repeat;
+      background-size: contain;
+    }
+
+    .zan.red {
+      background: url("../../static/customer/red-zan2.png") no-repeat;
+      background-size: contain;
+    }
+
+    .icon-row {
+      position: relative;
+    }
+
+    .QR {
+      width: 48rpx;
+      height: 48rpx;
+      background: url("../../static/customer/QR2.png") no-repeat;
+      background-size: contain;
+      margin-left: 20rpx;
+    }
+
+    .phone {
+      width: 48rpx;
+      height: 48rpx;
+      background: url("../../static/customer/phone2.png") no-repeat;
+      background-size: contain;
+      margin-left: 20rpx;
+    }
+
+    .domain {
+      margin-top: 30rpx;
+      color: #999;
+      text-align: center;
+      margin-left: 30rpx;
+      font-size: 26rpx;
+      font-weight: 500;
+    }
+  }
+
+  .ctt1 {
+    text-align: center;
+    margin-top: 20rpx;
+    margin-bottom: 40rpx;
+    justify-content: space-between;
+
+    .ctt1-item {
+      width: 330rpx;
+      height: 128rpx;
+      background: rgba(255, 255, 255, 1);
+      box-shadow: 0 1rpx 28rpx 1rpx rgba(104, 104, 107, 0.11);
+      border-radius: 20rpx;
+      align-items: center;
+      justify-content: center;
+
+      image {
+        width: 58rpx;
+        height: 58rpx;
+        margin-right: 20rpx;
+      }
+
+      .txt {
+        font-size: 28rpx;
+        font-weight: bold;
+        color: #000;
+      }
+    }
+  }
+
+  .ctt2 {
+    text-align: center;
+    margin-top: 20rpx;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .ctt2-item {
+      width: 330rpx;
+      height: 168rpx;
+      margin-bottom: 30rpx;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 10rpx;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+
+      image {
+        width: 330rpx;
+        height: 168rpx;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      .txt {
+        position: absolute;
+        left: 30rpx;
+        top: 40rpx;
+        font-size: 34rpx;
+        font-weight: bold;
+        text-align: center;
+        color: #7b683a;
+      }
+
+      .sub-text {
+        color: #5b6e86;
+        font-size: 24rpx;
+      }
+    }
+  }
+
+  .ctt3 {
+    text-align: center;
+    margin-top: 20rpx;
+    align-items: center;
+
+    .ctt3-item {
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      justify-content: center;
+      width: 180rpx;
+      height: 220rpx;
+      background: rgba(255, 255, 255, 1);
+      box-shadow: 0 1rpx 28rpx 1rpx rgba(104, 104, 107, 0.11);
+      border-radius: 20rpx;
+      margin-right: 20rpx;
+
+      image {
+        width: 96rpx;
+        height: 96rpx;
+      }
+
+      .txt {
+        color: #000;
+        font-size: 24rpx;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .title {
+    font-size: 36rpx;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 40rpx;
+
+    .line {
+      width: 10rpx;
+      height: 26rpx;
+      background: rgba(252, 145, 3, 1);
+      border-radius: 5rpx;
+      margin-right: 20rpx;
+    }
+  }
+}
